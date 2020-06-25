@@ -191,14 +191,26 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 GOOD LUCK 😀
 */
 
-var scoreJohn = (110 + 120 + 103) / 3;
-var scoreMike = (116 + 94 + 123) / 3;
-console.log(scoreJohn, scoreMike);
+// var scoreJohn = (110 + 120 + 103) / 3;
+// var scoreMike = (116 + 94 + 123) / 3;
+// console.log(scoreJohn, scoreMike);
 
-if (scoreJohn > scoreMike) {
-	console.log('John wins! with ' + scoreJohn + ' points');
-} else if (scoreMike > scoreJohn) {
-	console.log('Mike wins with ' + scoreMike + ' points');
-} else {
-	console.log('There is a draw');
+// if (scoreJohn > scoreMike) {
+// 	console.log('John wins! with ' + scoreJohn + ' points');
+// } else if (scoreMike > scoreJohn) {
+// 	console.log('Mike wins with ' + scoreMike + ' points');
+// } else {
+// 	console.log('There is a draw');
+// }
+
+//Functions
+
+function calculateAge(birthYear) {
+	return 2018 - birthYear;
 }
+
+var ageJeremy = calculateAge(1990);
+console.log(ageJeremy);
+
+
+
