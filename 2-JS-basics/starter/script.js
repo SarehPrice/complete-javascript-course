@@ -210,7 +210,15 @@ function calculateAge(birthYear) {
 }
 
 var ageJeremy = calculateAge(1990);
-console.log(ageJeremy);
+var ageSusan = calculateAge(1970);
+var ageSarah = calculateAge(1960);
 
+console.log(ageJeremy, ageSarah, ageSusan);
 
+function yearsUntilRetirement(year, firstName) {
+	var age = calculateAge(year);
+	var retirement = 65 - age;
+	console.log(firstName + 'retires in' + retirement + 'years');
+}
 
+yearsUntilRetirement(1990, 'John');
